@@ -1,0 +1,34 @@
+{
+  "name": "electron-widget",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": {
+    "appId": "com.currenttime.electronwidget",
+    "productName": "World Time API Widget",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "portable"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chokidar": "^3.5.3",
+    "electron": "^28.1.0",
+    "electron-builder": "^24.9.1"
+  }
+}
